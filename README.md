@@ -1,2 +1,2 @@
 # myClass
-myClass
+myClass Info
