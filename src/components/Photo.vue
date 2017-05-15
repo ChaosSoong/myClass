@@ -1,5 +1,4 @@
 <template>
-  <div class="photo">
     <div class="container">
     <img class="pic1" src="static/images/8H5F4790.jpg">
     <img class="pic2" src="static/images/8H5F4797.jpg">
@@ -12,12 +11,10 @@
     <img class="pic9" src="static/images/8H5F4828.jpg">
     <img class="pic10" src="static/images/8H5F4829.jpg">
   </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: 'photo',
   data () {
     return {
       
@@ -29,10 +26,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container{
-  width:960px; 
-  height:450px; 
-  margin:10px auto; 
-  position:relative;
+  position: relative;
+    left: 300px;
+    width: 76%;
+    height: 600px;
+    box-shadow: 0 0 10px #2A769A;
+    border-radius: 10px;
 }
 
 .container img{
@@ -59,14 +58,14 @@ export default {
 
 .pic1{
   left: 400px; 
-  top: 0; 
+  top:50; 
   -webkit-transform: rotate(-5deg); 
   -moz-transform: rotate(-5deg); 
   transform: rotate(-5deg);
 }
 
 .pic2{
-  top: 0; 
+  top:50; 
   left: 600px; 
   -webkit-transform: rotate(-20deg); 
   -moz-transform: rotate(-20deg); 
@@ -75,7 +74,7 @@ export default {
 
 .pic3
 {
-  bottom: 0; 
+  bottom:50px; 
   right: 0; 
   -webkit-transform: rotate(5deg); 
   -moz-transform: rotate(5deg); 
@@ -84,8 +83,8 @@ export default {
   
 .pic4
 {
-  bottom:0; 
-  left:300px; 
+  bottom:50px;
+  left:350px; 
   -webkit-transform: rotate(-10deg); 
   -moz-transform: rotate(-10deg); 
   transform: rotate(-10deg);
@@ -93,7 +92,7 @@ export default {
 
 .pic5
 {
-  bottom: 0; 
+  bottom:50px; 
   left: 0; 
   -webkit-transform: rotate(-10deg); 
   -moz-transform: rotate(-10deg); 
@@ -102,7 +101,7 @@ export default {
 
 .pic6
 {
-  top: 0; 
+  top:50; 
   left:0; 
   -webkit-transform: rotate(10deg); 
   -moz-transform: rotate(10deg); 
@@ -111,7 +110,7 @@ export default {
 
 .pic7
 {
-  top: 0; 
+  top:50; 
   left: 850px; 
   -webkit-transform: rotate(20deg); 
   -moz-transform: rotate(20deg); 
@@ -120,8 +119,8 @@ export default {
 
 .pic8
 {
-  bottom: -20px; 
-  right: 630px; 
+  bottom:50px;
+  right: 650px; 
   -webkit-transform: rotate(5deg); 
   -moz-transform: rotate(5deg); 
   transform: rotate(5deg);
@@ -129,8 +128,8 @@ export default {
 
 .pic9
 {
-  bottom: 0; 
-  left: 550px; 
+  bottom:50px; 
+  left: 580px; 
   -webkit-transform: rotate(15deg); 
   -moz-transform: rotate(15deg); 
   transform: rotate(15deg);
@@ -139,7 +138,7 @@ export default {
 .pic10
 {
   left:180px; 
-  top:20px; 
+  top:50px; 
   -webkit-transform: rotate(-10deg); 
   -moz-transform: rotate(-10deg); 
   transform: rotate(-10deg);
