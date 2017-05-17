@@ -26,10 +26,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container{
-  position: relative;
+  position: fixed;
+  top:50px;
     left: 300px;
     width: 76%;
-    height: 600px;
+    height: 550px;
     box-shadow: 0 0 10px #2A769A;
     border-radius: 10px;
 }

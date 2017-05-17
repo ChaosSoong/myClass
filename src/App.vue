@@ -1,22 +1,25 @@
 <template>
   <div id="app">
+    <my-nav></my-nav>
     <router-view></router-view>
+    <my-foot></my-foot>
   </div>
 </template>
 
 <script>
+import myNav from '@/components/nav'
+import myFoot from '@/components/foot'
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+    myNav,
+    myFoot
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif
 }
 </style>
