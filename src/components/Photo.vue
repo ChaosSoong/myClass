@@ -51,9 +51,9 @@ export default {
 
 .container img:hover{
   box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4); 
-  -webkit-transform:rotate(0deg) scale(1.5); 
-  -moz-transform:rotate(0deg) scale(1.5); 
-  transform:rotate(0deg) scale(1.5); 
+  -webkit-transform:rotate(0deg) scale(2); 
+  -moz-transform:rotate(0deg) scale(2); 
+  transform:rotate(0deg) scale(2); 
   z-index:2;
 }
 

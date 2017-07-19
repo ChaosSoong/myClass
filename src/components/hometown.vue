@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data () {
     return {
@@ -15,12 +16,15 @@ export default {
   methods:{
     init (){
       var map = new BMap.Map("container");          // 创建地图实例  
-      var point = new BMap.Point(116.404, 39.915);  // 创建点坐标  
-      map.centerAndZoom(point, 5);
+      var point = new BMap.Point(115.30, 38.511);  // 创建点坐标  
+      map.centerAndZoom(point, 6);
       map.addControl(new BMap.NavigationControl());
       map.addControl(new BMap.NavigationControl());    
       map.addControl(new BMap.ScaleControl());  
 
+      axios.get("static/data.json").then((data)=>{
+        console.log(typeof data.data)
+      });
       var MAX = 1000;
       var markers = [];
       var ptpt = null;
