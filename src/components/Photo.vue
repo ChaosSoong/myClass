@@ -1,15 +1,15 @@
 <template>
     <div class="container">
-    <img class="pic1" src="static/images/8H5F4790.jpg">
-    <img class="pic2" src="static/images/8H5F4797.jpg">
-    <img class="pic3" src="static/images/8H5F4799.jpg">
-    <img class="pic4" src="static/images/8H5F4801.jpg">
-    <img class="pic5" src="static/images/8H5F4809.jpg">
-    <img class="pic6" src="static/images/8H5F4812.jpg">
-    <img class="pic7" src="static/images/8H5F4815.jpg">
-    <img class="pic8" src="static/images/8H5F4817.jpg">
-    <img class="pic9" src="static/images/8H5F4828.jpg">
-    <img class="pic10" src="static/images/8H5F4829.jpg">
+    <img class="pic1" src="static/images/8H5F4790.JPG">
+    <img class="pic2" src="static/images/8H5F4797.JPG">
+    <img class="pic3" src="static/images/8H5F4799.JPG">
+    <img class="pic4" src="static/images/8H5F4801.JPG">
+    <img class="pic5" src="static/images/8H5F4809.JPG">
+    <img class="pic6" src="static/images/8H5F4812.JPG">
+    <img class="pic7" src="static/images/8H5F4815.JPG">
+    <img class="pic8" src="static/images/8H5F4817.JPG">
+    <img class="pic9" src="static/images/8H5F4828.JPG">
+    <img class="pic10" src="static/images/8H5F4829.JPG">
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 export default {
   data () {
     return {
-      
+
     }
   }
 }
@@ -30,7 +30,7 @@ export default {
   top:50px;
     left: 300px;
     width: 76%;
-    height: 550px;
+    height: 95%;
     box-shadow: 0 0 10px #2A769A;
     border-radius: 10px;
 }
@@ -38,110 +38,110 @@ export default {
 .container img{
   width: 200px;
   height: auto;
-  padding:10px 10px 15px; 
-  background:white; 
-  border:1px solid #ddd; 
+  padding:10px 10px 15px;
+  background:white;
+  border:1px solid #ddd;
   box-shadow:2px 2px 3px rgba(50, 50, 50, 0.4);
   -webkit-transition:all 0.5s ease-in;
   -moz-transition:all 0.5s ease-in;
-  transition:all 0.5s ease-in; 
-  position:absolute; 
+  transition:all 0.5s ease-in;
+  position:absolute;
   z-index:1;
 }
 
 .container img:hover{
-  box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4); 
-  -webkit-transform:rotate(0deg) scale(2); 
-  -moz-transform:rotate(0deg) scale(2); 
-  transform:rotate(0deg) scale(2); 
-  z-index:2;
+  box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4);
+  -webkit-transform:rotate(0deg) scale(2);
+  -moz-transform:rotate(0deg) scale(2);
+  transform:rotate(0deg) scale(2);
+  z-index:22222;
 }
 
 .pic1{
-  left: 400px; 
-  top:50; 
-  -webkit-transform: rotate(-5deg); 
-  -moz-transform: rotate(-5deg); 
+  left: 400px;
+  top:50;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
 
 .pic2{
-  top:50; 
-  left: 600px; 
-  -webkit-transform: rotate(-20deg); 
-  -moz-transform: rotate(-20deg); 
+  top:50;
+  left: 600px;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
 
 .pic3
 {
-  bottom:50px; 
-  right: 0; 
-  -webkit-transform: rotate(5deg); 
-  -moz-transform: rotate(5deg); 
+  bottom:50px;
+  right: 0;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
   transform: rotate(5deg);
 }
-  
+
 .pic4
 {
   bottom:50px;
-  left:350px; 
-  -webkit-transform: rotate(-10deg); 
-  -moz-transform: rotate(-10deg); 
+  left:350px;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
 
 .pic5
 {
-  bottom:50px; 
-  left: 0; 
-  -webkit-transform: rotate(-10deg); 
-  -moz-transform: rotate(-10deg); 
+  bottom:50px;
+  left: 0;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
 
 .pic6
 {
-  top:50; 
-  left:0; 
-  -webkit-transform: rotate(10deg); 
-  -moz-transform: rotate(10deg); 
+  top:50;
+  left:0;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
   transform: rotate(10deg);
 }
 
 .pic7
 {
-  top:50; 
-  left: 850px; 
-  -webkit-transform: rotate(20deg); 
-  -moz-transform: rotate(20deg); 
+  top:50;
+  left: 850px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
   transform: rotate(20deg);
 }
 
 .pic8
 {
   bottom:50px;
-  right: 650px; 
-  -webkit-transform: rotate(5deg); 
-  -moz-transform: rotate(5deg); 
+  right: 650px;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
   transform: rotate(5deg);
 }
 
 .pic9
 {
-  bottom:50px; 
-  left: 580px; 
-  -webkit-transform: rotate(15deg); 
-  -moz-transform: rotate(15deg); 
+  bottom:50px;
+  left: 580px;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
   transform: rotate(15deg);
 }
 
 .pic10
 {
-  left:180px; 
-  top:50px; 
-  -webkit-transform: rotate(-10deg); 
-  -moz-transform: rotate(-10deg); 
+  left:180px;
+  top:50px;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
 </style>

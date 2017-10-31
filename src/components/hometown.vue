@@ -17,7 +17,7 @@ export default {
     init (){
       var map = new BMap.Map("container");          // 创建地图实例  
       var point = new BMap.Point(115.30, 38.511);  // 创建点坐标  
-      map.centerAndZoom(point, 6);
+      map.centerAndZoom(point, 10);
       map.addControl(new BMap.NavigationControl());
       map.addControl(new BMap.NavigationControl());    
       map.addControl(new BMap.ScaleControl());  
@@ -25,7 +25,7 @@ export default {
       axios.get("static/data.json").then((data)=>{
         console.log(typeof data.data)
       });
-      var MAX = 1000;
+      var MAX = 27;
       var markers = [];
       var ptpt = null;
       for (var i = 0; i < MAX; i++) {
@@ -53,7 +53,8 @@ export default {
     top:50px;
     left: 300px;
     width: 76%;
-    height: 550px;
+    height: 95%;
+    min-height: 550px;
     box-shadow: 0 0 10px #2A769A;
     border-radius: 10px;
 }

@@ -100,7 +100,7 @@ export default {
     top:50px;
     left: 300px;
     width: 76%;
-    height: 550px;
+    height: 95%;
     box-shadow: 0 0 10px #2A769A;
     border-radius: 10px;
 }

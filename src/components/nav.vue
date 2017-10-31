@@ -37,6 +37,7 @@ export default {
   .nav-left {
     width: 140px;
     font-family: "Microsoft Yahei", sans-serif;
+    list-style-type: kannada;
   }
   .nav-item a {
     size: 14px;

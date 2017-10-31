@@ -1,6 +1,7 @@
 <template>
   <header>
     <p> <span>2012</span> 相聚  <span>2016</span> 分别 </p>
+    <audio src="static/images/Shane Filan - Beautiful In White.mp3" controls="controls" autoplay="autoplay"></audio>
   </header>
 </template>
 
@@ -23,5 +24,8 @@
   span {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.9);
+  }
+  audio{
+    display: inline;
   }
 </style>
